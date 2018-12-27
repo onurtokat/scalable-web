@@ -75,7 +75,7 @@ localhost:8080/v1/diff/{id}/right
 
 ```
 
-When above URLs post with the data using Postman, data will be stored into Mongo DB with their ids.
+When above URLs are posted with the data using Postman, data will be stored into Mongo DB with their ids.
 
 To see the comparison result using below link, pair should be posted and inserted into Mongo DB
 
