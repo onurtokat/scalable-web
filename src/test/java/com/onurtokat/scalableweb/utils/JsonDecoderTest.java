@@ -4,6 +4,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+/**
+ * @author onurtokat
+ */
 public class JsonDecoderTest {
 
     private static final String TEST_DECODED =
