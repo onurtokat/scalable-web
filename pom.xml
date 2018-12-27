@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>guru.springframework</groupId>
-    <artifactId>spring-boot-mongodb</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.onurtokat.scalableweb</groupId>
+    <artifactId>scalable-web</artifactId>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
-    <name>spring-boot-mongodb</name>
+    <name>scalable-web</name>
     <description>Demo project for Spring Boot and Mongo DB</description>
 
     <parent>

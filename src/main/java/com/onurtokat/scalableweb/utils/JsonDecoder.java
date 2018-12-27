@@ -1,5 +1,7 @@
 package com.onurtokat.scalableweb.utils;
 
+import com.onurtokat.scalableweb.exceptions.EncodingException;
+
 import javax.xml.bind.DatatypeConverter;
 
 /**
@@ -16,7 +18,11 @@ public class JsonDecoder {
      * @return decoded JSON data
      */
     public static String decode(String encodedJson) {
-        byte[] decoded = DatatypeConverter.parseBase64Binary(encodedJson);
-        return new String(decoded);
+        try {
+            byte[] decoded = DatatypeConverter.parseBase64Binary(encodedJson);
+            return new String(decoded);
+        } catch (Exception e) {
+            throw new EncodingException("Error occured when data encoding", e);
+        }
     }
 }
