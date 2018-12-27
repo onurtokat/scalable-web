@@ -12,6 +12,11 @@ public class OffsetCalculator {
 
     /**
      *getOffsetWithLength method provides offset diffs of the pair files
+     *Due to left and right string parameters are unformatted (no whitespace)
+     * , they are converted to pretty format to split with whitespace.
+     *
+     * With whitespace offset calculation can be done, and isDifferentLength
+     * method creates a result
      *
      * @param left left posted data
      * @param right right posted data
