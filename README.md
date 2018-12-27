@@ -95,7 +95,7 @@ Test classes can be found under src/test/java/com.onurtokat.scalableweb/ directo
 /utils/JsonDecoderTest.java
 /utils/OffsetCalculatorTest.java
 /utils/PrettyJsonFormatterTest.java
-(SmokeTest.java
+/SmokeTest.java
 ```
 ### Break down into end to end tests
 
