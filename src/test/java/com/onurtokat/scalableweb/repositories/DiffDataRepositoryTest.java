@@ -27,14 +27,12 @@ public class DiffDataRepositoryTest {
     @Autowired
     private DiffDataRepository diffDataRepository;
 
-    private DiffData diffData;
-
     @Before
     public void setUp() {
         Map<String, String> dataMap = new HashMap<>();
         dataMap.put(SIDE_LEFT, "X");
         dataMap.put(SIDE_RIGHT, "Y");
-        diffData = new DiffData("1", dataMap);
+        DiffData diffData = new DiffData("1", dataMap);
         diffDataRepository.save(diffData);
     }
 

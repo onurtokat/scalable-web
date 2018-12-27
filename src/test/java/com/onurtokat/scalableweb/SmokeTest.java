@@ -20,7 +20,7 @@ public class SmokeTest {
     private AppController appController;
 
     @Test
-    public void contexLoads() throws Exception {
+    public void contexLoads() {
         assertThat(appController).isNotNull();
     }
 }

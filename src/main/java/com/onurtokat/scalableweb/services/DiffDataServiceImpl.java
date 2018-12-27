@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class DiffDataServiceImpl implements DiffDataService {
 
-    DiffDataRepository diffDataRepository;
+    private DiffDataRepository diffDataRepository;
 
     @Autowired
     public DiffDataServiceImpl(DiffDataRepository diffDataRepository) {
