@@ -85,7 +85,7 @@ localhost:8080/v1/diff/{id}
 
 ## Running the tests
 
-Test classes can found under src/test/java/com.onurtokat.scalableweb/ directory.
+Test classes can be found under src/test/java/com.onurtokat.scalableweb/ directory.
 
 ```HTML
 /config/MongoDbSpringIntegrationTest.java
