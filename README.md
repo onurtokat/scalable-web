@@ -128,7 +128,7 @@ Test classes can be found under src/test/java/com.onurtokat.scalableweb/ directo
 
 Onur Tokat
 
-##Suggestion for improvement
+## Suggestion for improvement
 
 ● Considering many requests may access to service architecture, and data content of these request would be stored on database management system, then distributed storing and computing need to be set. This requirement drives to horizontal scalability competence.
 
